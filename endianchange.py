@@ -31,8 +31,8 @@ def endianConversion(str):
 #This function write the result to text file
 def writeResult(str):
     f = open("changed.txt",'w')
-    f.write("With whitespace")
+    f.write("With whitespace: ")
     f.write(str)
-    f.write("\nWithout whitespace")
+    f.write("\nWithout whitespace: ")
     str_removed_whitespace = str.replace(" ","")
     f.write(str_removed_whitespace)
