@@ -6,7 +6,7 @@ def stringLengthCheck(str):
         return True
 #This Function check weather string has character not in Hex string's character range
 def charRange(str):
-    charset = "0123456789ABCDE"
+    charset = "0123456789ABCDEF"
     for i in str:
         if not i in charset:
             return False
